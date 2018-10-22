@@ -1,0 +1,17 @@
+
+
+{
+  "reasons": [
+    "Your bot is not allowed to use our logo as your its avatar. Please change it and reapply.",
+    "The long description on your bot's page is filled out with spam/junk to reach the 300 character minimum requirement. Please rewrite your description to include more useful information about your bot.",
+    "Your bot's main feature is API abuse",
+    "Your bot was offline when we tried to review it. For that reason, we are unable to test it. Please get your bot online and re-apply.",
+    "There's an unknown error when trying to invite your bot. Please make sure of the following:\n- The application ID you entered is correct\n- You have a bot user with your application\n- Your bot application wasn't deleted",
+    "Your bot's code is in the long description",
+    "Your long description references NSFW commands and features",
+    "We had it in our server to test it for over 12 hours and it didn't say anything at all - plus now it's offline",
+    "Owner banned",
+    "Your bot doesn't have any actual features. Also, whenver you do a command it first sends you 'a' as a response and then edits it to the actual command repsonse.",
+    "Your bot doesn't have a (working) help command or obvious point of entry. Please make sure your bot has a help command or has an explanation in the bot description."
+  ]
+}
