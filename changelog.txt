@@ -2,7 +2,7 @@ Features added:
 - dbl!changelog added
 
 Bugs fixed:
-- Occasionally no response from bot when using dbl!moderators" and dbl!verify command
+- Occasionally no response from bot when using dbl!moderators and dbl!verify command
 
 Changes:
 - 8 new decline reasons!
