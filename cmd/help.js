@@ -19,6 +19,11 @@
                     "inline": true
                 },
                 {
+                    "name": "dbl!changelog",
+                    "value": "See the newest changelog from DBL simulator",
+                    "inline": true
+                },
+                {
                     "name": "Make this bot better:",
                     "value": "Send text samples and suggestions here: https://github.com/marcorennmaus/DBL-simulator",
                     "inline": true
