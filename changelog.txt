@@ -1,0 +1,12 @@
+Features added:
+- dbl!changelog added
+
+Bugs fixed:
+- Occasionally no response from bot when using dbl!moderators" and dbl!verify command
+
+Changes:
+- 8 new decline reasons!
+- 4 new @Moderator pings!
+
+Discovered some bugs or have suggestions?
+https://github.com/marcorennmaus/DBL-simulator/

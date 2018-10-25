@@ -1,5 +1,3 @@
-
-
 {
   "reasons": [
     "Your bot is not allowed to use our logo as your its avatar. Please change it and reapply.",
@@ -12,6 +10,14 @@
     "We had it in our server to test it for over 12 hours and it didn't say anything at all - plus now it's offline",
     "Owner banned",
     "Your bot doesn't have any actual features. Also, whenver you do a command it first sends you 'a' as a response and then edits it to the actual command repsonse.",
-    "Your bot doesn't have a (working) help command or obvious point of entry. Please make sure your bot has a help command or has an explanation in the bot description."
+    "Your bot doesn't have a (working) help command or obvious point of entry. Please make sure your bot has a help command or has an explanation in the bot description.",
+    "Your bot has an NSFW command that can be used in non-NSFW channels",
+    "Your bot has a publicly available token.",
+    "Your bot has explicit images that are usable in non-nsfw channels and are against Discord TOS.",
+    "Your bot doesn't have any actual (functioning) features/commands.",
+    "Your bot is private. Please make the bot public so we can test it fully.",
+    "Your bot has a command that sends a message to every member in the server. This is considered to be API abuse.",
+    "The primary owner of this bot was banned from the Discord Bot List server. They are prohibited from adding any bots.",
+    "Your bot seems to need a code grant for no reason. Make sure [this toggle](https://imgur.com/IbuhOik.png) on your bot application page is off. If your bot does need user authorization, feel free to DM me."
   ]
 }

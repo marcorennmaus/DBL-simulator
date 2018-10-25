@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "Make this bot better:",
-                    "value": "Send text samples to marco_rennmaus | Rennmoose#4991",
+                    "value": "Send text samples and suggestions here: https://github.com/marcorennmaus/DBL-simulator",
                     "inline": true
                 }]
          }

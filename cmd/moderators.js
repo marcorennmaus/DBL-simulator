@@ -5,7 +5,7 @@
 
         var randompings = JSON.parse(fs.readFileSync("./randompings.json", "utf8"))
 
-        var randomNumber = Math.floor(Math.random() * randompings.pings.length) + 1
+        var randomNumber = Math.floor(Math.random() * randompings.pings.length)
 
         var d = new Date();
 

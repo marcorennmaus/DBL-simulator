@@ -7,9 +7,9 @@
 
          var declinereasons = JSON.parse(fs.readFileSync("./declinereasons.json", "utf8"))
 
-         var randomNumber = Math.floor(Math.random() * declinereasons.reasons.length) + 1
+         var randomNumber = Math.floor(Math.random() * declinereasons.reasons.length)
 
-         var randomNumber2 = Math.floor(Math.random() * botsettings.mod_names.length) + 1
+         var randomNumber2 = Math.floor(Math.random() * botsettings.mod_names.length)
 
          var d = new Date();
 
