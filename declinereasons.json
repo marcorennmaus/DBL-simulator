@@ -18,6 +18,9 @@
     "Your bot is private. Please make the bot public so we can test it fully.",
     "Your bot has a command that sends a message to every member in the server. This is considered to be API abuse.",
     "The primary owner of this bot was banned from the Discord Bot List server. They are prohibited from adding any bots.",
+    "Your bot's avatar is NSFW. Please change it and reapply.",
+    "Your bot has a suicide command. We do not tolorate this kind of humor on our website",
+    "Your bot displays offensive or sensitive photographic and frowned upon words, We don't tolerate bots like this on our website.",
     "Your bot seems to need a code grant for no reason. Make sure [this toggle](https://imgur.com/IbuhOik.png) on your bot application page is off. If your bot does need user authorization, feel free to DM me."
   ]
 }
