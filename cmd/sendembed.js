@@ -26,7 +26,7 @@
             msg.channel.send({
                 embed: {
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "text": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
@@ -59,7 +59,7 @@
                     "color": embed_colour,
                     "footer": {
                         "icon_url": botsettings.embed_icon,
-                        "text": "music.marcorennmaus.tk Discord Bot"
+                        "text": "DBL Simulator"
                     },
                     "thumbnail": {
                         "url": args.thumbnail
@@ -77,7 +77,7 @@
             msg.channel.send({
                 embed: {
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "name": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
@@ -98,7 +98,7 @@
             msg.channel.send({
                 embed: {
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "name": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
@@ -118,7 +118,7 @@
             msg.channel.send({
                 embed: {
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "name": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
@@ -137,7 +137,7 @@
             msg.channel.send({
                 embed: {
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "name": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
@@ -165,7 +165,7 @@
                 embed: {
                     "content": "⚠ The embed design wasnt specified. Defaulting to fancy design.",
                     "author": {
-                        "name": "music.marcorennmaus.tk Discordbot",
+                        "name": "DBL Simulator",
                         "url": botsettings.embed_url,
                         "icon_url": botsettings.embed_icon
                     },
