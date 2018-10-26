@@ -21,6 +21,10 @@
     "Your bot's avatar is NSFW. Please change it and reapply.",
     "Your bot has a suicide command. We do not tolorate this kind of humor on our website",
     "Your bot displays offensive or sensitive photographic and frowned upon words, We don't tolerate bots like this on our website.",
-    "Your bot seems to need a code grant for no reason. Make sure [this toggle](https://imgur.com/IbuhOik.png) on your bot application page is off. If your bot does need user authorization, feel free to DM me."
+    "Your bot seems to need a code grant for no reason. Make sure [this toggle](https://imgur.com/IbuhOik.png) on your bot application page is off. If your bot does need user authorization, feel free to DM me.",
+    "Your bot seems to be an unmodified instance of (DiscordBotList/Luca)(https://github.com/DiscordBotList/Luca). We don't allow unmodified clones of other bots.",
+    "Your bot has a command that spams messages. That is considered API abuse.",
+    "Aside from your dbl<set and dbl<info command nothing seems to be working.",
+    "Your bot seems to be a pretty much unmodified instance of Redbot (https://github.com/Cog-Creators/Red-DiscordBot). While we do allow instances of Red on the server, they must be significantly modified or have at least one self-made cog."
   ]
 }
