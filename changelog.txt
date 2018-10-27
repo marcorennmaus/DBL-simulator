@@ -1,13 +1,5 @@
 Features added:
-- dbl!changelog added
-
-Bugs fixed:
-- Occasionally no response from bot when using dbl!moderators and dbl!verify command
-- **v0.0.2_01**: Replaced wrong titles in sendembed.js (thanks #starboard)
-
-Changes:
-- 8 new decline reasons!
-- 4 new @Moderator pings!
+- DBL Simulator now randomly tells stuff in turkish
 
 Discovered some bugs or have suggestions?
 https://github.com/marcorennmaus/DBL-simulator/

@@ -8,10 +8,28 @@ const commandChangelog = require("./changelog.js")
 
 module.exports = {
     main: function (msg, botsettings, mysql, mysqlcon, client) {
-        if (msg.content === botsettings.prefix + "ping") { commandPing.main(msg, botsettings) }
-        if (msg.content === botsettings.prefix + "verify") { commandDeclineBots.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed) }
-        if (msg.content === botsettings.prefix + "moderators") { commandModerators.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed) }
-        if (msg.content === botsettings.prefix + "help") { commandHelp.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed) }
-        if (msg.content === botsettings.prefix + "changelog") { commandChangelog.main(msg, botsettings, sendEmbed) }
+
+        const fs = require("fs")
+
+        var translationsDB = "./translations.json"
+
+        var translations = JSON.parse(fs.readFileSync(translationsDB, "utf8"))
+
+        var randomEasteregg = Math.random()
+
+        console.log(randomEasteregg)
+        if(randomEasteregg > 0.95){
+          var language = "tr"
+        }
+        else{
+          var language = "en"
+        }
+
+
+        if (msg.content === botsettings.prefix + "ping") { commandPing.main(msg, botsettings, language, translations) }
+        if (msg.content === botsettings.prefix + "verify") { commandDeclineBots.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
+        if (msg.content === botsettings.prefix + "moderators") { commandModerators.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
+        if (msg.content === botsettings.prefix + "help") { commandHelp.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
+        if (msg.content === botsettings.prefix + "changelog") { commandChangelog.main(msg, botsettings, sendEmbed, language, translations) }
     }
 }

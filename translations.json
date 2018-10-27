@@ -1,0 +1,52 @@
+{
+  "en": {
+    "changelog": {
+      "name": "Changelog",
+      "version": "Version",
+      "title": "Title",
+      "changes": "Changes"
+    },
+    "declinebots": {
+      "title": "Bot declined",
+      "bot": "Bot",
+      "mod": "Moderator",
+      "reason": "Reason"
+    },
+    "help": {
+      "title": "Here's some help for you i guess",
+      "moderators_desc": "Ping the moderators",
+      "verify_desc": "Can't wait for your bot to be verified? Use this command to verify it instantly!",
+      "changelog_desc": "See the newest changelog from DBL simulator",
+      "better_bot_title": "Make this bot better:",
+      "better_bot_value": "Send text samples and suggestions here: https://github.com/marcorennmaus/DBL-simulator"
+    },
+    "ping": {
+      "pong": "Pong!"
+    }
+  },
+  "tr": {
+    "changelog": {
+      "name": "Değişiklikler",
+      "version": "versiyon",
+      "title": "Başlık",
+      "changes": "değişiklikler"
+    },
+    "declinebots": {
+      "title": "Bot reddedildi",
+      "bot": "Tekne",
+      "mod": "Arabulucu",
+      "reason": "Reason"
+    },
+    "help": {
+      "title": "İşte sana yardım etmek istiyorum",
+      "moderators_desc": "Moderatörlere ping",
+      "verify_desc": "Botunuzun doğrulanmasını bekleyemiyor musunuz? Anında doğrulamak için bu komutu kullanın!",
+      "changelog_desc": "DBL simülatöründen en yeni değişikliklere bakın",
+      "better_bot_title": "Bu botu daha iyi yap:",
+      "better_bot_value": "Metin örnekleri ve öneriler gönderin: https://github.com/marcorennmaus/DBL-simulator"
+    },
+    "ping": {
+      "pong": "Pong!"
+    }
+  }
+}
