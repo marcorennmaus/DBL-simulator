@@ -12,6 +12,8 @@
          var randomNumber2 = Math.floor(Math.random() * botsettings.mod_names.length)
 
          var d = new Date();
+          
+          let person = message.mentions.members ? message.mentions.members.first().tag : message.author.tag
 
          var args = {
              "design": "luca_decline",
@@ -20,7 +22,7 @@
              "fields": [
                  {
                      "name": "Bot",
-                     "value": msg.author.username + "#" + msg.author.discriminator,
+                     "value": person,
                      "inline": true
                  },
                  {
