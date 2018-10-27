@@ -43,6 +43,11 @@ client.on('message', msg => {
     if (msg.channel.type === "text") { console.log("[" + msg.author.username + "@" + msg.guild.name + "/" + msg.channel.name + "] " + msg.content) }
     if (msg.channel.type === "group") { console.log("[" + msg.author.username + "@GROUP/GROUP] " + msg.content) }
     if (msg.channel.type === "dm") { console.log("[" + msg.author.username + "@DM/DM] " + msg.content) }
+
+    if (msg.author.bot){
+      console.log("Author is a bot, ignoring message.")
+      return false;
+    }
     cmd.main(msg, botsettings, mysql, mysqlcon, client)
 
 });
