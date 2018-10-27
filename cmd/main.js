@@ -27,7 +27,7 @@ module.exports = {
 
 
         if (msg.content === botsettings.prefix + "ping") { commandPing.main(msg, botsettings, language, translations) }
-        if (msg.content === botsettings.prefix + "verify") { commandDeclineBots.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
+        if (msg.content.startsWith(botsettings.prefix + "verify")) { commandDeclineBots.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
         if (msg.content === botsettings.prefix + "moderators") { commandModerators.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
         if (msg.content === botsettings.prefix + "help") { commandHelp.main(msg, botsettings, mysql, mysqlcon, client, sendEmbed, language, translations) }
         if (msg.content === botsettings.prefix + "changelog") { commandChangelog.main(msg, botsettings, sendEmbed, language, translations) }
