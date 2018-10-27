@@ -1,31 +1,31 @@
 ﻿﻿module.exports = {
-     main: function (msg, botsettings, mysql, mysqlcon, client, sendembed) {
+     main: function (msg, botsettings, mysql, mysqlcon, client, sendembed, language, translations) {
 
          var d = new Date();
 
          var args = {
             "design": "luca_decline",
-            "title": "Here's some help for you i guess",
+            "title": translations[language].help.title,
             "timestamp": d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate() + "T" + d.getHours() + ":" + d.getMinutes + ":" + d.getSeconds() + ".000Z",
             "fields": [
                 {
                     "name": "dbl!moderators",
-                    "value": "Ping the moderators",
+                    "value": translations[language].help.moderators_desc,
                     "inline": true
                 },
                 {
                     "name": "dbl!verify",
-                    "value": "Can't wait for your bot to be verified? Use this command to verify it instantly!",
+                    "value": translations[language].help.verify_desc,
                     "inline": true
                 },
                 {
                     "name": "dbl!changelog",
-                    "value": "See the newest changelog from DBL simulator",
+                    "value": translations[language].help.changelog_desc,
                     "inline": true
                 },
                 {
-                    "name": "Make this bot better:",
-                    "value": "Send text samples and suggestions here: https://github.com/marcorennmaus/DBL-simulator",
+                    "name": translations[language].help.better_bot_title,
+                    "value": translations[language].help.better_bot_value,
                     "inline": true
                 }]
          }

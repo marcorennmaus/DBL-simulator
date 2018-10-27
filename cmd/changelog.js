@@ -1,5 +1,5 @@
 module.exports = {
-    main: function(msg, botsettings, sendembed){
+    main: function(msg, botsettings, sendembed, language, translations){
 
       const fs = require("fs");
       const changelogdb = "./changelog.txt"
@@ -8,21 +8,21 @@ module.exports = {
       var embed_args = {
         "design": "fancy_af",
         "status": "info",
-        "description": "Changelog",
+        "description": translations[language].changelog.name,
         "image_url": botsettings.changelog_image,
         "fields": [
           {
-          "name": "Version",
+          "name": translations[language].changelog.version,
           "value": botsettings.vnum,
           "inline": true
         },
           {
-            "name": "Title",
+            "name": translations[language].changelog.title,
             "value": botsettings.update_name,
             "inline": true
           },
           {
-          "name": "Changes",
+          "name": translations[language].changelog.changes,
           "value": actuallog,
           }
         ]
