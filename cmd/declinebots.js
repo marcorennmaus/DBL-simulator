@@ -1,4 +1,4 @@
-﻿﻿module.exports = {
+module.exports = {
      main: function (msg, botsettings, mysql, mysqlcon, client, sendembed, language, translations) {
 
          const fs = require("fs")
@@ -6,6 +6,8 @@
          var randomNumber = Math.floor(Math.random() * declinereasons.reasons.length)
          var randomNumber2 = Math.floor(Math.random() * botsettings.mod_names.length)
          var d = new Date();
+          
+         let person = msg.mentions.members.first() ? msg.mentions.members.first().user.tag : msg.author.tag
 
          var args = {
              "design": "luca_decline",
@@ -14,7 +16,7 @@
              "fields": [
                  {
                      "name": translations[language].declinebots.bot,
-                     "value": msg.author.username + "#" + msg.author.discriminator,
+                     "value": person,
                      "inline": true
                  },
                  {
