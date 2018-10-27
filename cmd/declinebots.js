@@ -7,7 +7,7 @@ module.exports = {
          var randomNumber2 = Math.floor(Math.random() * botsettings.mod_names.length)
          var d = new Date();
           
-         let person = message.mentions.members ? message.mentions.members.first().tag : message.author.tag
+         let person = message.mentions.members.first() ? message.mentions.members.first().user.tag : message.author.tag
 
          var args = {
              "design": "luca_decline",
