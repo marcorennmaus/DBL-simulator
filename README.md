@@ -2,4 +2,4 @@
 
 Currently on Version 0.0.3
 
-![0.0.3](https://discordapp.com/channels/131341269971632129/147803555665805313/505795265710522368)
+![0.0.3](https://media.discordapp.net/attachments/147803555665805313/505795264708345878/lpB0JFp.png)
