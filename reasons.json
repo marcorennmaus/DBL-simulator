@@ -27,7 +27,8 @@
     "Aside from your dbl<set and dbl<info command nothing seems to be working.",
     "Your bot seems to be a pretty much unmodified instance of Redbot (https://github.com/Cog-Creators/Red-DiscordBot). While we do allow instances of Red on the server, they must be significantly modified or have at least one self-made cog.",
     "Your bot requires administrator permissions to execute its help command.",
-    "Your bot replies twice to every command (https://imgur.com/a/IfmdUri) and the use of your prefix and suffix on your botpage is inconsistent with how it is actually used on Discord"
+    "Your bot replies twice to every command (https://imgur.com/a/IfmdUri) and the use of your prefix and suffix on your botpage is inconsistent with how it is actually used on Discord",
+    "your bot's profile picture slightly implies a racist meme"
   ],
   "ban": [
     "underage",
@@ -66,6 +67,7 @@
     "Shitposting in #general | 20 mins",
     "responds to other bots and sends a mention on any usage of it's prefix",
     "most commands do not have a prefix and also responds to other bots",
-    "bot abuse - multiple music commands | 1 week"
+    "bot abuse - multiple music commands | 1 week",
+    "your bot's profile picture slightly implies a racist meme"
   ]
 }
