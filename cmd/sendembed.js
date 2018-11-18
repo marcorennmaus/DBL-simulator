@@ -50,6 +50,26 @@
                 }
             });
         }
+        else if (args.design === "luca_mute") {
+            msg.channel.send({
+                embed: {
+                    "title": args.title,
+                    "color": botsettings.colour_luca_mute,
+                    "timestamp": args.timestamp,
+                    "fields": args.fields
+                }
+            });
+        }
+        else if (args.design === "luca_ban") {
+            msg.channel.send({
+                embed: {
+                    "title": args.title,
+                    "color": botsettings.colour_luca_ban,
+                    "timestamp": args.timestamp,
+                    "fields": args.fields
+                }
+            });
+        }
         else if (args.design === "fancy_artist") {
             msg.channel.send({
                 embed: {

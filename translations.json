@@ -10,13 +10,18 @@
       "title": "Bot declined",
       "bot": "Bot",
       "mod": "Moderator",
-      "reason": "Reason"
+      "reason": "Reason",
+      "title_mute": "Mute",
+      "title_ban": "Ban",
+      "user": "User"
     },
     "help": {
       "title": "Here's some help for you i guess",
       "moderators_desc": "Ping the moderators",
       "verify_desc": "Can't wait for your bot to be verified? Use this command to verify it instantly!",
       "changelog_desc": "See the newest changelog from DBL simulator",
+      "mute_desc": "Mute a user",
+      "ban_desc": "Ban a user",
       "better_bot_title": "Make this bot better:",
       "better_bot_value": "Send text samples and suggestions here: https://github.com/marcorennmaus/DBL-simulator"
     },
@@ -35,13 +40,18 @@
       "title": "Bot reddedildi",
       "bot": "Tekne",
       "mod": "Arabulucu",
-      "reason": "Reason"
+      "reason": "Reason",
+      "title_mute": "sessiz",
+      "title_ban": "yasak",
+      "user": "kullanıcı"
     },
     "help": {
       "title": "İşte sana yardım etmek istiyorum",
       "moderators_desc": "Moderatörlere ping",
       "verify_desc": "Botunuzun doğrulanmasını bekleyemiyor musunuz? Anında doğrulamak için bu komutu kullanın!",
       "changelog_desc": "DBL simülatöründen en yeni değişikliklere bakın",
+      "mute_desc": "Bir kullanıcıyı sessize al",
+      "ban_desc": "kullanıcıyı yasakla",
       "better_bot_title": "Bu botu daha iyi yap:",
       "better_bot_value": "Metin örnekleri ve öneriler gönderin: https://github.com/marcorennmaus/DBL-simulator"
     },

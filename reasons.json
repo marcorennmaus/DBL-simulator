@@ -1,5 +1,5 @@
 {
-  "reasons": [
+  "decline": [
     "Your bot is not allowed to use our logo as your its avatar. Please change it and reapply.",
     "The long description on your bot's page is filled out with spam/junk to reach the 300 character minimum requirement. Please rewrite your description to include more useful information about your bot.",
     "Your bot's main feature is API abuse",
@@ -25,6 +25,47 @@
     "Your bot seems to be an unmodified instance of [DiscordBotList/Luca](https://github.com/DiscordBotList/Luca). We don't allow unmodified clones of other bots.",
     "Your bot has a command that spams messages. That is considered API abuse.",
     "Aside from your dbl<set and dbl<info command nothing seems to be working.",
-    "Your bot seems to be a pretty much unmodified instance of Redbot (https://github.com/Cog-Creators/Red-DiscordBot). While we do allow instances of Red on the server, they must be significantly modified or have at least one self-made cog."
+    "Your bot seems to be a pretty much unmodified instance of Redbot (https://github.com/Cog-Creators/Red-DiscordBot). While we do allow instances of Red on the server, they must be significantly modified or have at least one self-made cog.",
+    "Your bot requires administrator permissions to execute its help command.",
+    "Your bot replies twice to every command (https://imgur.com/a/IfmdUri) and the use of your prefix and suffix on your botpage is inconsistent with how it is actually used on Discord"
+  ],
+  "ban": [
+    "underage",
+    "dm ads",
+    "hoist ads",
+    "rhino musicbot as a selfbot",
+    "Advertising in general",
+    "Ads in #general",
+    "bot abuse",
+    "[Spamming my DMs after being muted above](https://cdn.discordapp.com/attachments/396848636081733632/506510994021941248/unknown.png)",
+    "ads",
+    "Ban evasion",
+    "spamming smh (selfbot idk)",
+    "Spamming cunt",
+    "another pin - gonna get a strike soon",
+    "ban evasion of 'bowling pin', 'bowling pin', 'bowling pin' and 'bowling pin'",
+    "advertising scam servers to random people in DMs https://i.imgur.com/GRBt5wR.png",
+    "Just spams bowling pins in chat for a living",
+    "selfbot",
+    "Sending invites in General"
+  ],
+  "mute": [
+    "responds to 'sa'",
+    "responds to other bots",
+    "seems to respond to other bots",
+    "would not stop breaking up their messages after being told multiple times",
+    "Random coin added messages.",
+    "unknown command messages",
+    "Needless, excessive spamming | 1hr",
+    "> adds hitler bot\n> spams the decline reason\n> acts insulted as if Hitler was his love buddy\n> [this](https://cdn.discordapp.com/attachments/396848636081733632/506805931489755166/unknown.png)",
+    "Responds to every message sent",
+    "responds and reacts to other bots",
+    "Levelup messages",
+    "responds to 'yardim' with no prefix",
+    "seems to respond to random messages",
+    "Shitposting in #general | 20 mins",
+    "responds to other bots and sends a mention on any usage of it's prefix",
+    "most commands do not have a prefix and also responds to other bots",
+    "bot abuse - multiple music commands | 1 week"
   ]
 }

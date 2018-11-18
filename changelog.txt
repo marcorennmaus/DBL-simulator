@@ -1,6 +1,6 @@
 Features added:
-- DBL Simulator now randomly tells stuff in turkish
-- dbl!verify now accepts mentions (thanks Bakagain!)
+- dbl!ban
+- dbl!mute
 
 Discovered some bugs or have suggestions?
 https://github.com/marcorennmaus/DBL-simulator/

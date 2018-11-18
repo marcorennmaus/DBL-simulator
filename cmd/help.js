@@ -24,6 +24,16 @@
                     "inline": true
                 },
                 {
+                    "name": "dbl!mute",
+                    "value": translations[language].help.mute_desc,
+                    "inline": true
+                },
+                {
+                    "name": "dbl!ban",
+                    "value": translations[language].help.ban_desc,
+                    "inline": true
+                },
+                {
                     "name": translations[language].help.better_bot_title,
                     "value": translations[language].help.better_bot_value,
                     "inline": true
