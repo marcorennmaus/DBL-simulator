@@ -1,5 +1,5 @@
 ﻿# DBL Simulator
 
-Currently on Version 0.0.3
+Currently on Version 0.1
 
-![0.0.3](https://media.discordapp.net/attachments/147803555665805313/505795264708345878/lpB0JFp.png)
+![0.1](https://i.imgur.com/sDe7eQl.png)
