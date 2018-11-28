@@ -8,6 +8,8 @@ const cmd = require("./cmd/main.js")
 console.log(fs.readFileSync(botsettingsdb, "utf8"))
 var botsettings = JSON.parse(fs.readFileSync(botsettingsdb, "utf8"))
 var messagesInLastPeriod = 0
+const DBL = require("dblapi.js");
+const dbl = new DBL(botsettings.dbl_token, client);
 
 var mysqlcon = mysql.createConnection({
     host: botsettings.mysql_host,
