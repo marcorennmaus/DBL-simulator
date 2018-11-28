@@ -7,6 +7,8 @@
     "name": ""
   },
   "dependencies": {
+    "discord.js": "^11.4.2",
+    "mysql": "^2.16.0",
     "dblapi.js": "^2.3.0"
   }
 }
