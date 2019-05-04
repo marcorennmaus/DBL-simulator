@@ -28,7 +28,16 @@
     "Your bot seems to be a pretty much unmodified instance of Redbot (https://github.com/Cog-Creators/Red-DiscordBot). While we do allow instances of Red on the server, they must be significantly modified or have at least one self-made cog.",
     "Your bot requires administrator permissions to execute its help command.",
     "Your bot replies twice to every command (https://imgur.com/a/IfmdUri) and the use of your prefix and suffix on your botpage is inconsistent with how it is actually used on Discord",
-    "your bot's profile picture slightly implies a racist meme"
+    "your bot's profile picture slightly implies a racist meme",
+    "We cannot test this bot as its requirements to be setup are not met by our testing environment. Please don't limit your bot to guilds of certain sizes.",
+    "Your bot's leaderboard command shows the names and other information of other guilds. This should be opt in only, otherwise it is a privacy violation.",
+    "Hentai mentioned in description",
+    "Your bot's tell command allows members from the server to anonymously DM others",
+    "Your bot's playing status changes status every 5 seconds, please increase the time in which you change your bots status to something that doesn't abuse the api. The maximum amount of times you can change your playing status is 5 times per minute, Please change your code to meet these requirements.",
+    "Your bot's help command is disabled which leaves no obvious entry point.",
+    "Your long description literally has nothing to do with your bot.",
+    "You are using the widgets of another bot in your long description. Please use your own widgets.",
+    "Your bot's code is in the long description"
   ],
   "ban": [
     "underage",
@@ -48,7 +57,12 @@
     "advertising scam servers to random people in DMs https://i.imgur.com/GRBt5wR.png",
     "Just spams bowling pins in chat for a living",
     "selfbot",
-    "Sending invites in General"
+    "Sending invites in General",
+    "Advertising their youtube channel",
+    "rule 1 LOOL XD HAHA, also he posted a link that lead to an ip grabber as many times as the number of his case after warnings",
+    "ads in front of Big T's eyes, don't corrupt my man like that",
+    "nsfw in testing channels",
+    "Selfbotting and being rude"
   ],
   "mute": [
     "responds to 'sa'",
@@ -68,6 +82,7 @@
     "responds to other bots and sends a mention on any usage of it's prefix",
     "most commands do not have a prefix and also responds to other bots",
     "bot abuse - multiple music commands | 1 week",
-    "your bot's profile picture slightly implies a racist meme"
+    "your bot's profile picture slightly implies a racist meme",
+    "massive bot abuse https://luca.is-inside.me/HyAVUmMC.png | 7d"
   ]
 }
