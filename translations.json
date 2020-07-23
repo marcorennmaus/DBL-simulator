@@ -39,7 +39,7 @@
     "declinebots": {
       "title": "Bot reddedildi",
       "bot": "Bot",
-      "mod": "Moderatör",
+      "mod": "Yetkili",
       "reason": "Sebep",
       "title_mute": "Susturma",
       "title_ban": "Yasaklama",
