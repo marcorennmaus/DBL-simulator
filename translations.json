@@ -38,11 +38,11 @@
     },
     "declinebots": {
       "title": "Bot reddedildi",
-      "bot": "Tekne",
-      "mod": "Arabulucu",
-      "reason": "Reason",
-      "title_mute": "sessiz",
-      "title_ban": "yasak",
+      "bot": "Bot",
+      "mod": "Yetkili",
+      "reason": "Sebep",
+      "title_mute": "Susturma",
+      "title_ban": "Yasaklama",
       "user": "kullanıcı"
     },
     "help": {
