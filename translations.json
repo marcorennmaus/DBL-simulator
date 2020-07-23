@@ -43,16 +43,16 @@
       "reason": "Sebep",
       "title_mute": "Susturma",
       "title_ban": "Yasaklama",
-      "user": "kullanıcı"
+      "user": "Kullanıcı"
     },
     "help": {
-      "title": "İşte sana yardım etmek istiyorum",
-      "moderators_desc": "Moderatörlere ping",
-      "verify_desc": "Botunuzun doğrulanmasını bekleyemiyor musunuz? Anında doğrulamak için bu komutu kullanın!",
-      "changelog_desc": "DBL simülatöründen en yeni değişikliklere bakın",
-      "mute_desc": "Bir kullanıcıyı sessize al",
-      "ban_desc": "kullanıcıyı yasakla",
-      "better_bot_title": "Bu botu daha iyi yap:",
+      "title": "Bu bilgiler sana yardımcı olacaktır",
+      "moderators_desc": "Moderatörleri etiketlemek",
+      "verify_desc": "Botunuzun onaylanmasını bekleyemiyor musunuz? Anında botunuzun onaylanmasını için bu komutu kullanın!",
+      "changelog_desc": "DBL simülatörünün en yeni değişikliklere bakın",
+      "mute_desc": "Bir kullanıcıyı sustur",
+      "ban_desc": "Bir kullanıcıyı yasakla",
+      "better_bot_title": "Bu botu daha iyi yapmak için:",
       "better_bot_value": "Metin örnekleri ve öneriler gönderin: https://github.com/marcorennmaus/DBL-simulator"
     },
     "ping": {
